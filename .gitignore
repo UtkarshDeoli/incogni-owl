@@ -1,0 +1,52 @@
+# React Native
+node_modules/
+*.log
+*.swp
+*.swo
+*.DS_Store
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/release/
+android/local.properties
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/res/drawable-*/node_modules_reactnative_libraries_newarchassets_newarchassetsloader_*.png
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/xcshareddata/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcworkspace/xcshareddata/
+ios/*.xcuserstate
+ios/Podfile.lock
+ios/Podfile.lock.lock
+ios/Podfile.lock.lock.lock
+
+# Miscellaneous
+*.iml
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.xcuserdatad/
+*.xcuserdata/
+*.xcworkspace/
+*.xcodeproj/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+*.xcuserstate
+*.lock
+*.log
+*.swp
+*.swo
+*.DS_Store
+*.env
+*.env.*
