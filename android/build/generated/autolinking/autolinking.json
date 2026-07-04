@@ -1,20 +1,20 @@
 {
-  "root": "/home/utkarsh/Documents/incogni-owl",
-  "reactNativePath": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native",
+  "root": "/Users/utkarsh/Developer/Projects/incogni-owl",
+  "reactNativePath": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native",
   "reactNativeVersion": "0.75",
   "dependencies": {
     "react-native-safe-area-context": {
-      "root": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-safe-area-context",
+      "root": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-safe-area-context",
       "name": "react-native-safe-area-context",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "podspecPath": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
           "version": "4.11.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-safe-area-context/android",
+          "sourceDir": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-safe-area-context/android",
           "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
           "packageInstance": "new SafeAreaContextPackage()",
           "buildTypes": [],
@@ -23,7 +23,7 @@
             "RNCSafeAreaProviderComponentDescriptor",
             "RNCSafeAreaViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -32,17 +32,17 @@
       }
     },
     "react-native-screens": {
-      "root": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-screens",
+      "root": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-screens",
       "name": "react-native-screens",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-screens/RNScreens.podspec",
+          "podspecPath": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-screens/RNScreens.podspec",
           "version": "3.34.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-screens/android",
+          "sourceDir": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-screens/android",
           "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
           "packageInstance": "new RNScreensPackage()",
           "buildTypes": [],
@@ -58,7 +58,7 @@
             "RNSScreenComponentDescriptor",
             "RNSModalScreenComponentDescriptor"
           ],
-          "cmakeListsPath": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -67,23 +67,23 @@
       }
     },
     "react-native-vector-icons": {
-      "root": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-vector-icons",
+      "root": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-vector-icons",
       "name": "react-native-vector-icons",
       "platforms": {
         "ios": {
-          "podspecPath": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "podspecPath": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
           "version": "10.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-vector-icons/android",
+          "sourceDir": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-vector-icons/android",
           "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
           "packageInstance": "new VectorIconsPackage()",
           "buildTypes": [],
           "libraryName": "RNVectorIconsSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/home/utkarsh/Documents/incogni-owl/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/utkarsh/Developer/Projects/incogni-owl/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -253,7 +253,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "/home/utkarsh/Documents/incogni-owl"
+          "default": "/Users/utkarsh/Developer/Projects/incogni-owl"
         },
         {
           "name": "--platform <string>",
@@ -305,7 +305,7 @@
         {
           "name": "--terminal <string>",
           "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "xterm-256color"
+          "default": "vscode"
         },
         {
           "name": "--binary-path <string>",
@@ -465,7 +465,7 @@
         {
           "name": "--terminal <string>",
           "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "xterm-256color"
+          "default": "vscode"
         },
         {
           "name": "--appId <string>",
@@ -540,12 +540,12 @@
   "assets": [],
   "project": {
     "ios": {
-      "sourceDir": "/home/utkarsh/Documents/incogni-owl/ios",
+      "sourceDir": "/Users/utkarsh/Developer/Projects/incogni-owl/ios",
       "xcodeProject": null,
       "assets": []
     },
     "android": {
-      "sourceDir": "/home/utkarsh/Documents/incogni-owl/android",
+      "sourceDir": "/Users/utkarsh/Developer/Projects/incogni-owl/android",
       "appName": "app",
       "packageName": "com.incogniowl",
       "applicationId": "com.incogniowl",
